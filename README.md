@@ -45,23 +45,19 @@ MySQL (or any JDBC-supported DB)
 Book_ManagementSystem/
 
 │── src/main/java/
-
 │   ├── Homepage/
-
 │   │   ├── Insertservlet.java
 │   │   ├── Updateservlet.java
 │   │   ├── Deleteservlet.java
 │   │   └── Retrivesrvlet.java
 
 │   ├── Signin_signup/
-
 │   │   ├── Signupservlet.java
 │   │   ├── Signinservlet.java
 │   │   └── Otpservlet.java
 │
 
 │── src/main/webapp/
-
 │   ├── *.html
 │   ├── *.css
 │   └── index.jsp
