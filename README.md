@@ -50,19 +50,16 @@ Book_ManagementSystem/
 │   │   ├── Updateservlet.java
 │   │   ├── Deleteservlet.java
 │   │   └── Retrivesrvlet.java
-
 │   ├── Signin_signup/
 │   │   ├── Signupservlet.java
 │   │   ├── Signinservlet.java
 │   │   └── Otpservlet.java
 │
-
 │── src/main/webapp/
 │   ├── *.html
 │   ├── *.css
 │   └── index.jsp
 │
-
 │── pom.xml
 
 ⚙️ Setup Instructions
