@@ -8,14 +8,18 @@ This project demonstrates backend development using Servlets, JSP, and JDBC, alo
 🔐 User Authentication
 
  * User Signup
+   
  * Login functionality
- *OTP verification
+ OTP verification
 
 📖 Book Management
 
  *Add new books
+ 
  *View book records
+ 
  *Update book details
+ 
  *Delete books
  
 🌐 Web Interface
@@ -28,13 +32,17 @@ This project demonstrates backend development using Servlets, JSP, and JDBC, alo
 
 Backend
 Java Servlets
+
 JSP
+
 JDBC
+
 Maven
 
 Frontend
 
 HTML
+
 CSS
 
 Database
