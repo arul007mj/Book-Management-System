@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outter{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    flex-basis: 50%;
+    background-color: black;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.right>form{
+    width: 50%;
+    background-color: silver;
+    border-radius: 40px;
+    border: none;
+    display: block;
+    padding: 20px 40px;
+}
+.right>h2{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 2s ease-out .1ms;
+}
+.right>h2:hover{
+    color: blue;
+    transform: rotatey(360deg);
+    font-size: 37px;
+    
+}
+p{
+    color: beige;
+}
+.in{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+form>input{
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer;
+}
+
+form>label{
+    font-size: 16px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    padding: 9px;
+    border-radius: 20px;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+form>button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 20px;
+    cursor: pointer; 
+    border: none;
+}
+p{
+    font-size: 20px;
+
+}
+form>button:hover{
+    background-color: rgb(39, 39, 39);
+    color: red;
+    transform: scale(1.1);
+}
+.in>a:hover{
+    color:red;
+    transform: scale(1.1);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.left>img{
+width: 500px;
+height: 400px;
+transition: 2s ease .1ms;
+}
+input:hover{
+background-color:black ;
+color: red;
+transform: scale(1.1);
+}
+.left>img:hover{
+    transform: rotatey(180deg);
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+ 	display: flex;
+    background-color:rgba(0, 0, 0, 0.418);
+    height: 100vh;
+}
+.left{
+    flex-basis: 50%;
+    background-image: url("https://img.freepik.com/premium-photo/modern-social-media-developing-future-trend-social-media_1269188-21424.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left>.in{
+background-color: rgba(0, 0, 0, 0.418);
+height: 300px;
+width: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+ol{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.in>ol>li{
+list-style:none;
+margin-bottom:15px;
+text-transform: uppercase;
+font-family: monospace;
+font-size:26px;
+color:red;
+text-shadow: 2px -1.5px white;
+}
+
+.right{
+    flex-basis: 50%;
+    background-color: black;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.right>form{
+    width: 80%;
+    background-color: silver;
+    border-radius: 40px;
+    border: none;
+    display: block;
+    padding: 20px 40px;
+}
+.right>h2{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 2s ease-out .1ms;
+}
+.right>h2:hover{
+    color: blue;
+    transform: rotatey(180deg);
+    font-size: 37px;
+    
+}
+
+
+
+form>input{
+	width:70%;
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer;
+}
+
+form>label{
+    font-size: 13px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+form>button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer; 
+    border: none;
+}
+
+form>button:hover{
+    background-color: rgb(39, 39, 39);
+    color: red;
+    transform: scale(1.1);
+}
+
+input:hover{
+background-color:black ;
+color: red;
+transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+<main>
+	<div class="left">
+			<div class="in">
+            <ol>
+            <li> by ---> ID</li>
+            <li> by ---> BOOK NAME</li>
+            <li> by ---> AUTHOR </li>
+            <li> by ---> ORDER BY PUBLISHED YEAR RESENT FIRST</li>
+            </ol>
+            </div>
+        </div>
+        <div class="right">
+               <h2>retrive page</h2> 
+               <form action="getbyid" method="get">
+                <label for="name">enter the option </label>
+                <input type="text" id ="name" placeholder="option to retrive" name="option">
+                <label for="pass">enter the value to match column</label>
+                <input type="text" id ="pass" placeholder="value to check" name="value">
+                <button>retrive</button>
+               </form>
+        </div>
+    </main>
+</body>
+</html>

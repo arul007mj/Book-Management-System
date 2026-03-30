@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GeTTING INFO FROM THE USER </title>
+<style type="text/css">
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+ 	display: flex;
+    background-color:rgba(0, 0, 0, 0.418);
+    height: 100vh;
+}
+.left{
+    flex-basis: 50%;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/050/496/001/small/many-books-on-a-shelf-in-a-library-photo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.right{
+    flex-basis: 50%;
+    background-color: black;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.right>form{
+    width: 80%;
+    background-color: silver;
+    border-radius: 40px;
+    border: none;
+    display: block;
+    padding: 20px 40px;
+}
+.right>h2{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 2s ease-out .1ms;
+}
+.right>h2:hover{
+    color: blue;
+    transform: rotatey(180deg);
+    font-size: 37px;
+    
+}
+
+.in{
+	margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+form>input{
+	width:70%;
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    display: block;
+    cursor: pointer;
+}
+
+form>label{
+    font-size: 13px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+form>button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer; 
+    border: none;
+}
+
+form>button:hover{
+    background-color: rgb(39, 39, 39);
+    color: red;
+    transform: scale(1.1);
+}
+.in>a:hover{
+    color:red;
+    transform: scale(1.1);
+    cursor: pointer;
+    font-size: 20px;
+}
+.in>a{
+text-decoration: none;}
+
+
+input:hover{
+background-color:black ;
+color: red;
+transform: scale(1.1);
+}
+</style>
+
+</head>
+<body>
+<main>
+<div class="left">
+
+</div>
+<div class="right">
+<h2>welcome to add book page</h2>
+<form action="getinfo" method="post">
+<h3>ENTER THE BOOK ID</h3>
+<input type="number" name="id"><br>
+<h3>ENTER BOOK NAME</h3>
+<input type="text" name="name"><br>
+<h3>ENTER AUTHOR NAME</h3> 
+<input type="text" name="author"><br>
+<h3>YEAR OF PUBLISHED</h3>																	
+<input type="number" name="year" ><br>
+<h3>BOOK PUBLISHER</h3>
+<input type="text" name="publisher"><br>
+<button type="submit">insert</button>
+
+<div class="in">
+<a href="getbyid.html">RETRIVE  </a>
+<a href="Update.html"> UPDATE </a>
+<a href="delete.html"> DELETE </a>
+ </div>
+</form>
+</div>
+</main>
+
+</body>
+</html>

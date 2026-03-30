@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+body{
+height:100vh;
+width:100%;
+background-image:url("https://t4.ftcdn.net/jpg/02/38/03/15/360_F_238031542_nEnEtddZBUU7WEKVE05QzhlIjaHCVsg8.jpg") ;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+main{
+height:80%;
+width:90%;
+display:flex;
+justify-content: space-between;
+align-items: center;
+position: reletive;
+ }
+ li{
+ color:black;
+ text-shadow:3px -2px red;
+ letter-spacing: 4px;
+ font-family:arial ;
+ }
+ 
+ form{
+ 	border:2px 3px red;
+ 	border-radius:30px;
+ 	padding:20px 30px ;
+ 	background-color:black;
+	color: orange;
+ }
+
+</style>
+</head>
+<body>
+<nav><marquee ><h1 style="color: red;text-shadow:3px -2px white ;">========== WELCOME TO UPDATE PAGE ========== </h1> </marquee></nav>
+<h1 style="color:purple;text-shadow:2px -2px white " >THE COLUMNS ARE PRSENT IN USERS_TABLE</h1>
+<main>
+<div>
+<ol>
+<li><h3>BOOK NAME</h3></li>
+<li><h3>AUTHOR NAME E</h3></li>
+<li><h3>YEAR OF PUBLISHED</h3></li>
+<li><h3>PUBLISHER</h3></li>
+</ol></div>
+<div>
+<form action="update" method="put">
+<h3>WHICH ID U WANT UPDATE </h3>
+<input type="number" name="id"><br>
+<h3>ENTER THE COLUMN NAME TO UPDATE </h3>
+<input type="text" name="colname"><br>
+<h3>ENTER THE NEW VALUE </h3>
+<input type="text" name="new_val"><br>
+<input type="submit">
+</form></div>
+
+</main>
+</body>
+</html>

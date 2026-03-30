@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+main{
+
+height: 100vh;
+width: 100%;
+background-image:url("https://img.freepik.com/premium-photo/modern-social-media-developing-future-trend-social-media_1269188-21424.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+position:relative;
+
+}
+
+form{
+position:absolute;
+height:370px;
+width:300px;
+top:30%;
+left:50%;
+background-color: rgba(0, 0, 0, 0.418);
+border: 2px 4px orange;
+border-radius: 30px;
+padding: 20px 30px;
+}
+form>input{
+margin-top:17px;
+padding: 13px;
+border-radius: 16px;}
+main>form>h2{
+text-decoration:inherit;
+margin-bottom: 30px;
+letter-spacing: 3px;
+text-align: center;
+color: red;
+text-shadow: 2px -2px white;}
+
+main>form>label{
+font-size:25px;
+margin-top:40px;
+margin-bottom:10px;
+text-shadow:2px -2px white;
+color:blue;
+letter-spacing:3px;
+font-weight:bold;
+}
+
+form>input:hover {
+	background-color: olive;
+	color: white;
+}
+form>button{
+display: block;
+font-size:19px;
+padding:10px;
+letter-spacing:3px;
+margin-top: 15px;
+border-radius:30px;
+text-align: center;
+}
+form>button:hover {
+	border-radius: 17px;
+	background-color: black;
+	color: red;	
+}
+main>form>.otp{
+display:none;
+}
+
+</style>
+
+</head>
+<body>
+	<main>
+	<form action="otpverification">
+	<h2>OTP VERIFICATION</h2>
+	<h2> YOUR OTP IS : </h2>
+	<input class="otp" type="text"  name="otp" >
+	<label for="otp">ENTER THE OTP HERE </label><br>
+	<input type="number" id="otp" placeholder=" ENTER THE OTP " name="user_otp">
+	<button>SUBMIT</button>
+	</form>
+	</main>
+	<script src="Otp.js"></script>
+</body>
+</html>

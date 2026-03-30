@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+
+main{
+height: 100vh;
+width: 100%;
+background-image:url("https://img.freepik.com/premium-photo/modern-social-media-developing-future-trend-social-media_1269188-21424.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+position:relative;
+
+}
+
+form{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+position:absolute;
+height:300px;
+width:300px;
+top:30%;
+left:50%;
+background-color: rgba(0, 0, 0, 0.418);
+border: 2px 4px orange;
+border-radius: 30px;
+padding: 20px 30px;
+}
+form>input{
+margin-top:17px;
+padding: 13px;
+border-radius: 16px;}
+
+
+form>label{
+font-size:25px;
+margin-top:60px;
+margin-bottom:10px;
+text-shadow:2px -2px white;
+color:blue;
+letter-spacing:3px;
+font-weight:bold;
+}
+
+form>input:hover {
+	background-color: olive;
+	color: white;
+}
+form>button{
+display: block;
+font-size:19px;
+padding:10px;
+letter-spacing:3px;
+margin-top: 15px;
+text-align: center;
+}
+form>button:hover {
+	border-radius: 17px;
+	background-color: black;
+	color: red;	
+}
+form>button::active {
+	background-color: green;
+	color: white;
+}
+</style>
+
+</head>
+<body>
+	<main>
+	<form action="delete">
+	<label>ENTER THE BOOK ID </label><br>
+	<input type="number" placeholder="enter the book id to delete" name="id">
+	<button>SUBMIT</button>
+	</form>
+	
+	</main>
+</body>
+</html>
