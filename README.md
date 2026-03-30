@@ -4,34 +4,39 @@ A full-stack Java-based web application that allows users to manage books with b
 This project demonstrates backend development using Servlets, JSP, and JDBC, along with a simple frontend using HTML & CSS.
 
 🚀 Features
+
 🔐 User Authentication
-Sign up with OTP verification
-Login functionality
+
+ * User Signup
+ * Login functionality
+ *OTP verification
 📖 Book Management
-Add new books
-Retrieve book details
-Update existing records
-Delete books
+
+ *Add new books
+ *View book records
+ *Update book details
+ *Delete books
 🌐 Web Interface
-Clean HTML/CSS UI
-Form-based interactions
+
+ *Simple and functional UI using HTML & CSS
+
+
+
 🛠️ Tech Stack
 
 Backend
-
 Java Servlets
 JSP
 JDBC
 Maven
 
 Frontend
-
 HTML
 CSS
 
 Database
-
 MySQL (or any JDBC-supported DB)
+
 📂 Project Structure
 Book_ManagementSystem/
 │── src/main/java/
@@ -53,6 +58,7 @@ Book_ManagementSystem/
 │── pom.xml
 
 ⚙️ Setup Instructions
+
 1. Clone Repository
 git clone https://github.com/arul007mj/book-management-system.git
 2. Import Project
