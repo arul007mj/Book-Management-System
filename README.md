@@ -54,7 +54,7 @@ Book_ManagementSystem/
 
 ⚙️ Setup Instructions
 1. Clone Repository
-git clone https://github.com/your-username/book-management-system.git
+git clone https://github.com/arul007mj/book-management-system.git
 2. Import Project
 Open Eclipse / IntelliJ
 Import as Maven Project
