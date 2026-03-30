@@ -10,12 +10,14 @@ This project demonstrates backend development using Servlets, JSP, and JDBC, alo
  * User Signup
  * Login functionality
  *OTP verification
+
 📖 Book Management
 
  *Add new books
  *View book records
  *Update book details
  *Delete books
+ 
 🌐 Web Interface
 
  *Simple and functional UI using HTML & CSS
@@ -31,10 +33,12 @@ JDBC
 Maven
 
 Frontend
+
 HTML
 CSS
 
 Database
+
 MySQL (or any JDBC-supported DB)
 
 📂 Project Structure
