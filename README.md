@@ -12,18 +12,24 @@ This project demonstrates backend development using Servlets, JSP, and JDBC, alo
    ![image alt](https://github.com/arul007mj/Book-Management-System/blob/f515524125640e88a4eb2fac40020b65c96e5a06/Book_ManagementSystem/Book%20management%20system%20screenshot/Signup.png)
    
  * Login functionality
- OTP verification
+
+   ![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/login.png)
+       
+ * otp verification
+   ![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/otp.png)
+
 
 📖 Book Management
 
  *Add new books
- 
+  ![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/insert.png)
  *View book records
- 
+  ![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/Retrivepage.png)
  *Update book details
- 
+  ![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/update.png)
  *Delete books
- 
+  ![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/delete.png)
+  
 🌐 Web Interface
 
  *Simple and functional UI using HTML & CSS
@@ -52,26 +58,7 @@ Database
 
 MySQL (or any JDBC-supported DB)
 
-📂 Project Structure
-Book_ManagementSystem/
-
-│── src/main/java/
-│   ├── Homepage/
-│   │   ├── Insertservlet.java
-│   │   ├── Updateservlet.java
-│   │   ├── Deleteservlet.java
-│   │   └── Retrivesrvlet.java
-│   ├── Signin_signup/
-│   │   ├── Signupservlet.java
-│   │   ├── Signinservlet.java
-│   │   └── Otpservlet.java
-│
-│── src/main/webapp/
-│   ├── *.html
-│   ├── *.css
-│   └── index.jsp
-│
-│── pom.xml
+![image alt](https://github.com/arul007mj/Book-Management-System/blob/5d89e348c63c331061f3f543d50945647e91f78d/Book_ManagementSystem/Book%20management%20system%20screenshot/Screenshot%20(29).png)
 
 ⚙️ Setup Instructions
 
