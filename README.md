@@ -9,6 +9,8 @@ This project demonstrates backend development using Servlets, JSP, and JDBC, alo
 
  * User Signup
    
+   ![image alt](https://github.com/arul007mj/Book-Management-System/blob/f515524125640e88a4eb2fac40020b65c96e5a06/Book_ManagementSystem/Book%20management%20system%20screenshot/Signup.png)
+   
  * Login functionality
  OTP verification
 
